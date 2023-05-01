@@ -17,10 +17,14 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(ament_cmake_python REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(tf2 REQUIRED)
+find_package(xacro REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(vehicle_msg REQUIRED)
 
 add_executable(vehicleModel src/vehicleModel.cpp)
 target_include_directories(vehicleModel PUBLIC
@@ -29,13 +33,33 @@ target_include_directories(vehicleModel PUBLIC
 ament_target_dependencies(
   vehicleModel
   "std_msgs"
-  "rclpy"
   "rclcpp"
   "tf2"
 )
 
 install(TARGETS vehicleModel
   DESTINATION lib/${PROJECT_NAME})
+
+install(
+  DIRECTORY launch rviz2 src scripts urdf
+  DESTINATION share/${PROJECT_NAME}
+)
+
+
+# Install Python modules
+ament_python_install_package(${PROJECT_NAME})
+
+# Install Python scripts
+install(PROGRAMS
+  scripts/utils.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
+# rosidl_generate_interfaces(${PROJECT_NAME}
+#   "msg/vehicle2Dpose.msg"
+# )
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

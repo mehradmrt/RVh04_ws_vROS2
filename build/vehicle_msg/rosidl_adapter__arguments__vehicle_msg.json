@@ -1,0 +1,7 @@
+{
+  "package_name": "vehicle_msg",
+  "non_idl_tuples": [
+    "/home/arya/ros2_ws/src/hw4_ws/src/vehicle_msg:msg/Vehiclepose.msg",
+    "/home/arya/ros2_ws/src/hw4_ws/src/vehicle_msg:msg/VehicleInput.msg"
+  ]
+}

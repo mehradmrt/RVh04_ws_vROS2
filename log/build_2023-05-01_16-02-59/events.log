@@ -1,0 +1,399 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (-) JobUnselected: {'identifier': 'roboticvehicles'}
+[0.000392] (vehicle_msg) JobQueued: {'identifier': 'vehicle_msg', 'dependencies': OrderedDict()}
+[0.000409] (vehiclemodel) JobQueued: {'identifier': 'vehiclemodel', 'dependencies': OrderedDict([('vehicle_msg', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg')])}
+[0.000424] (vehicle_msg) JobStarted: {'identifier': 'vehicle_msg'}
+[0.008049] (vehicle_msg) JobProgress: {'identifier': 'vehicle_msg', 'progress': 'cmake'}
+[0.008109] (vehicle_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/arya/ros2_ws/src/hw4_ws/src/vehicle_msg', '-DCMAKE_INSTALL_PREFIX=/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg'], 'cwd': '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('SSH_AGENT_PID', '1209'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '918'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arya'), ('JOURNAL_STREAM', '8:38990'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/arya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arya-NUC11TNHi7:@/tmp/.ICE-unix/1247,unix/arya-NUC11TNHi7:/tmp/.ICE-unix/1247'), ('INVOCATION_ID', '4d45d16d50114309804dbf29e77aeacc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e91fd8e0_2dc2_4960_925e_af3ea795306c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.045478] (vehicle_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.081666] (vehicle_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.084233] (vehicle_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.099907] (-) TimerEvent: {}
+[0.138685] (vehicle_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.139272] (vehicle_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.183874] (vehicle_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.190911] (vehicle_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.191051] (vehicle_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.192932] (vehicle_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.199973] (-) TimerEvent: {}
+[0.256018] (vehicle_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.256686] (vehicle_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300094] (-) TimerEvent: {}
+[0.318111] (vehicle_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.325141] (vehicle_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.325603] (vehicle_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.327114] (vehicle_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.343605] (vehicle_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.343717] (vehicle_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400269] (-) TimerEvent: {}
+[0.460988] (vehicle_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.462809] (vehicle_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.466846] (vehicle_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500431] (-) TimerEvent: {}
+[0.521567] (vehicle_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.540152] (vehicle_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.587374] (vehicle_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600598] (-) TimerEvent: {}
+[0.615999] (vehicle_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.687291] (vehicle_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.700699] (-) TimerEvent: {}
+[0.747596] (vehicle_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.751225] (vehicle_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.764728] (vehicle_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.765829] (vehicle_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.781678] (vehicle_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.781787] (vehicle_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.781830] (vehicle_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.781862] (vehicle_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.793997] (vehicle_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.800777] (-) TimerEvent: {}
+[0.817544] (vehicle_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.829847] (vehicle_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.830832] (vehicle_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.831245] (vehicle_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.833723] (vehicle_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.849167] (vehicle_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.850651] (vehicle_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg\n'}
+[0.854841] (vehicle_msg) CommandEnded: {'returncode': 0}
+[0.856749] (vehicle_msg) JobProgress: {'identifier': 'vehicle_msg', 'progress': 'build'}
+[0.856895] (vehicle_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg', '--', '-j8', '-l8'], 'cwd': '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('SSH_AGENT_PID', '1209'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '918'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arya'), ('JOURNAL_STREAM', '8:38990'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/arya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arya-NUC11TNHi7:@/tmp/.ICE-unix/1247,unix/arya-NUC11TNHi7:/tmp/.ICE-unix/1247'), ('INVOCATION_ID', '4d45d16d50114309804dbf29e77aeacc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e91fd8e0_2dc2_4960_925e_af3ea795306c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.882957] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__cpp\x1b[0m\n'}
+[0.883114] (vehicle_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.889623] (vehicle_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.900895] (-) TimerEvent: {}
+[1.001184] (-) TimerEvent: {}
+[1.055019] (vehicle_msg) StdoutLine: {'line': b'[  5%] Built target vehicle_msg__cpp\n'}
+[1.063824] (vehicle_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.064038] (vehicle_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.064135] (vehicle_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.077446] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_generator_c\x1b[0m\n'}
+[1.085670] (vehicle_msg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msg/msg/detail/vehicle_input__functions.c.o\x1b[0m\n'}
+[1.087105] (vehicle_msg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__rosidl_generator_c.dir/rosidl_generator_c/vehicle_msg/msg/detail/vehiclepose__functions.c.o\x1b[0m\n'}
+[1.101284] (-) TimerEvent: {}
+[1.128613] (vehicle_msg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libvehicle_msg__rosidl_generator_c.so\x1b[0m\n'}
+[1.150680] (vehicle_msg) StdoutLine: {'line': b'[ 20%] Built target vehicle_msg__rosidl_generator_c\n'}
+[1.157206] (vehicle_msg) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.159814] (vehicle_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.201372] (-) TimerEvent: {}
+[1.245998] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.247503] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.254200] (vehicle_msg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msg/msg/vehiclepose__type_support.cpp.o\x1b[0m\n'}
+[1.254451] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.254736] (vehicle_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msg/msg/detail/vehiclepose__type_support.cpp.o\x1b[0m\n'}
+[1.255177] (vehicle_msg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vehicle_msg/msg/vehicle_input__type_support.cpp.o\x1b[0m\n'}
+[1.262026] (vehicle_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vehicle_msg/msg/detail/vehicle_input__type_support.cpp.o\x1b[0m\n'}
+[1.267765] (vehicle_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msg/msg/detail/dds_fastrtps/vehiclepose__type_support.cpp.o\x1b[0m\n'}
+[1.268369] (vehicle_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vehicle_msg/msg/detail/dds_fastrtps/vehicle_input__type_support.cpp.o\x1b[0m\n'}
+[1.301476] (-) TimerEvent: {}
+[1.401767] (-) TimerEvent: {}
+[1.437697] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_c\x1b[0m\n'}
+[1.450255] (vehicle_msg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msg/msg/vehiclepose__type_support.cpp.o\x1b[0m\n'}
+[1.479776] (vehicle_msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/vehicle_msg/msg/vehicle_input__type_support.cpp.o\x1b[0m\n'}
+[1.483348] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.494899] (vehicle_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msg/msg/detail/vehiclepose__type_support.c.o\x1b[0m\n'}
+[1.501890] (-) TimerEvent: {}
+[1.509317] (vehicle_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.528951] (vehicle_msg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vehicle_msg/msg/detail/vehicle_input__type_support.c.o\x1b[0m\n'}
+[1.547863] (vehicle_msg) StdoutLine: {'line': b'[ 53%] Built target vehicle_msg__rosidl_typesupport_c\n'}
+[1.554288] (vehicle_msg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libvehicle_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.557855] (vehicle_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.562062] (vehicle_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.573306] (vehicle_msg) StdoutLine: {'line': b'[ 61%] Built target vehicle_msg__rosidl_typesupport_introspection_c\n'}
+[1.583650] (vehicle_msg) StdoutLine: {'line': b'[ 61%] Built target vehicle_msg__rosidl_typesupport_cpp\n'}
+[1.588775] (vehicle_msg) StdoutLine: {'line': b'[ 61%] Built target vehicle_msg__rosidl_typesupport_introspection_cpp\n'}
+[1.602046] (-) TimerEvent: {}
+[1.660283] (vehicle_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.702224] (-) TimerEvent: {}
+[1.711238] (vehicle_msg) StdoutLine: {'line': b'[ 64%] Built target vehicle_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[1.717438] (vehicle_msg) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.802315] (-) TimerEvent: {}
+[1.871748] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.880881] (vehicle_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msg/msg/detail/vehiclepose__type_support_c.cpp.o\x1b[0m\n'}
+[1.881082] (vehicle_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vehicle_msg/msg/detail/vehicle_input__type_support_c.cpp.o\x1b[0m\n'}
+[1.902513] (-) TimerEvent: {}
+[2.002847] (-) TimerEvent: {}
+[2.075237] (vehicle_msg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libvehicle_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.103036] (-) TimerEvent: {}
+[2.128241] (vehicle_msg) StdoutLine: {'line': b'[ 74%] Built target vehicle_msg__rosidl_typesupport_fastrtps_c\n'}
+[2.134771] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg\x1b[0m\n'}
+[2.141175] (vehicle_msg) StdoutLine: {'line': b'[ 74%] Built target vehicle_msg\n'}
+[2.147607] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__py\x1b[0m\n'}
+[2.154716] (vehicle_msg) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.203210] (-) TimerEvent: {}
+[2.303417] (-) TimerEvent: {}
+[2.403747] (-) TimerEvent: {}
+[2.469721] (vehicle_msg) StdoutLine: {'line': b'[ 76%] Built target vehicle_msg__py\n'}
+[2.476155] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__python\x1b[0m\n'}
+[2.487947] (vehicle_msg) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__python.dir/rosidl_generator_py/vehicle_msg/msg/_vehicle_input_s.c.o\x1b[0m\n'}
+[2.488104] (vehicle_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__python.dir/rosidl_generator_py/vehicle_msg/msg/_vehiclepose_s.c.o\x1b[0m\n'}
+[2.503861] (-) TimerEvent: {}
+[2.540589] (vehicle_msg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vehicle_msg/libvehicle_msg__python.so\x1b[0m\n'}
+[2.564490] (vehicle_msg) StdoutLine: {'line': b'[ 84%] Built target vehicle_msg__python\n'}
+[2.571377] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.571542] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.571613] (vehicle_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicle_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.582273] (vehicle_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vehicle_msg/_vehicle_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.583735] (vehicle_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vehicle_msg/_vehicle_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.583790] (vehicle_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/vehicle_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vehicle_msg/_vehicle_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.603972] (-) TimerEvent: {}
+[2.634140] (vehicle_msg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vehicle_msg/vehicle_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.634801] (vehicle_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vehicle_msg/vehicle_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.636053] (vehicle_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/vehicle_msg/vehicle_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.656360] (vehicle_msg) StdoutLine: {'line': b'[100%] Built target vehicle_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[2.656518] (vehicle_msg) StdoutLine: {'line': b'[100%] Built target vehicle_msg__rosidl_typesupport_c__pyext\n'}
+[2.674875] (vehicle_msg) StdoutLine: {'line': b'[100%] Built target vehicle_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.683111] (vehicle_msg) CommandEnded: {'returncode': 0}
+[2.704076] (-) TimerEvent: {}
+[2.716927] (vehicle_msg) JobProgress: {'identifier': 'vehicle_msg', 'progress': 'install'}
+[2.724109] (vehicle_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg'], 'cwd': '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('SSH_AGENT_PID', '1209'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '918'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arya'), ('JOURNAL_STREAM', '8:38990'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/arya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arya-NUC11TNHi7:@/tmp/.ICE-unix/1247,unix/arya-NUC11TNHi7:/tmp/.ICE-unix/1247'), ('INVOCATION_ID', '4d45d16d50114309804dbf29e77aeacc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e91fd8e0_2dc2_4960_925e_af3ea795306c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.731492] (vehicle_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.731683] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/ament_index/resource_index/rosidl_interfaces/vehicle_msg\n'}
+[2.731765] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg\n'}
+[2.731805] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg\n'}
+[2.731871] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.731910] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/vehiclepose.h\n'}
+[2.731970] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail\n'}
+[2.732030] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__struct.h\n'}
+[2.732068] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__functions.c\n'}
+[2.732132] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__type_support.h\n'}
+[2.732169] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__functions.h\n'}
+[2.732227] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__functions.h\n'}
+[2.732275] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__functions.c\n'}
+[2.732332] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__type_support.h\n'}
+[2.732381] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__struct.h\n'}
+[2.732439] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/vehicle_input.h\n'}
+[2.732523] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/environment/library_path.sh\n'}
+[2.732604] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/environment/library_path.dsv\n'}
+[2.732728] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_generator_c.so\n'}
+[2.732984] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_generator_c.so" to ""\n'}
+[2.733031] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg\n'}
+[2.733070] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg\n'}
+[2.733128] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.733194] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail\n'}
+[2.733232] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__rosidl_typesupport_fastrtps_c.h\n'}
+[2.733285] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__rosidl_typesupport_fastrtps_c.h\n'}
+[2.733322] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[2.733436] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.733500] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg\n'}
+[2.733540] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg\n'}
+[2.733609] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail\n'}
+[2.733647] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/dds_fastrtps\n'}
+[2.733685] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.733749] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.733787] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.733844] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.734014] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.734077] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg\n'}
+[2.734116] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg\n'}
+[2.734184] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.734224] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail\n'}
+[2.734262] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__rosidl_typesupport_introspection_c.h\n'}
+[2.734320] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__type_support.c\n'}
+[2.734358] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__rosidl_typesupport_introspection_c.h\n'}
+[2.734416] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__type_support.c\n'}
+[2.734473] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_introspection_c.so\n'}
+[2.734653] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.734714] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_c.so\n'}
+[2.734865] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_c.so" to ""\n'}
+[2.734930] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg\n'}
+[2.734970] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg\n'}
+[2.735037] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/vehicle_input.hpp\n'}
+[2.735087] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail\n'}
+[2.735123] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__builder.hpp\n'}
+[2.735161] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__struct.hpp\n'}
+[2.735225] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__traits.hpp\n'}
+[2.735265] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__traits.hpp\n'}
+[2.735328] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__builder.hpp\n'}
+[2.735368] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__struct.hpp\n'}
+[2.735426] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/vehiclepose.hpp\n'}
+[2.735494] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg\n'}
+[2.735533] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg\n'}
+[2.735571] (vehicle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail\n'}
+[2.735629] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__type_support.cpp\n'}
+[2.735698] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__type_support.cpp\n'}
+[2.735736] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehicle_input__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.735773] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/vehicle_msg/msg/detail/vehiclepose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.735836] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[2.735992] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.736053] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_cpp.so\n'}
+[2.736211] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[2.736311] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/environment/pythonpath.sh\n'}
+[2.736364] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/environment/pythonpath.dsv\n'}
+[2.736451] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/__init__.py\n'}
+[2.754849] (vehicle_msg) StdoutLine: {'line': b"Compiling '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/__init__.py'...\n"}
+[2.757432] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/msg\n'}
+[2.757540] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/msg/_vehiclepose.py\n'}
+[2.757722] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/msg/_vehicle_input.py\n'}
+[2.757795] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/msg/_vehiclepose_s.c\n'}
+[2.757836] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/msg/__init__.py\n'}
+[2.757874] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/msg/_vehicle_input_s.c\n'}
+[2.758004] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/vehicle_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.758250] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/vehicle_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.758392] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/vehicle_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.758683] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/vehicle_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.758804] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/vehicle_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.759070] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages/vehicle_msg/vehicle_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[2.759127] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__python.so\n'}
+[2.759285] (vehicle_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/libvehicle_msg__python.so" to ""\n'}
+[2.759398] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/msg/Vehiclepose.idl\n'}
+[2.759458] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/msg/VehicleInput.idl\n'}
+[2.759517] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/msg/Vehiclepose.msg\n'}
+[2.759588] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/msg/VehicleInput.msg\n'}
+[2.759693] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/ament_index/resource_index/package_run_dependencies/vehicle_msg\n'}
+[2.759807] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/ament_index/resource_index/parent_prefix_path/vehicle_msg\n'}
+[2.759874] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/environment/ament_prefix_path.sh\n'}
+[2.759947] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/environment/ament_prefix_path.dsv\n'}
+[2.760021] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/environment/path.sh\n'}
+[2.760094] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/environment/path.dsv\n'}
+[2.760163] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/local_setup.bash\n'}
+[2.760236] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/local_setup.sh\n'}
+[2.760307] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/local_setup.zsh\n'}
+[2.760375] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/local_setup.dsv\n'}
+[2.760443] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/package.dsv\n'}
+[2.760537] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/ament_index/resource_index/packages/vehicle_msg\n'}
+[2.760653] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_generator_cExport.cmake\n'}
+[2.760744] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.760845] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.760928] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.761030] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_typesupport_cExport.cmake\n'}
+[2.761105] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.761204] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_generator_cppExport.cmake\n'}
+[2.761312] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.761386] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.761486] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_typesupport_cppExport.cmake\n'}
+[2.761563] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.761639] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[2.761711] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.761795] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.761867] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.761940] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.762012] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.762085] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.762159] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msgConfig.cmake\n'}
+[2.762218] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake/vehicle_msgConfig-version.cmake\n'}
+[2.762283] (vehicle_msg) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/package.xml\n'}
+[2.763851] (vehicle_msg) CommandEnded: {'returncode': 0}
+[2.804268] (-) TimerEvent: {}
+[2.822337] (vehicle_msg) JobEnded: {'identifier': 'vehicle_msg', 'rc': 0}
+[2.824429] (vehiclemodel) JobStarted: {'identifier': 'vehiclemodel'}
+[2.829434] (vehiclemodel) JobProgress: {'identifier': 'vehiclemodel', 'progress': 'cmake'}
+[2.829562] (vehiclemodel) Command: {'cmd': ['/usr/bin/cmake', '/home/arya/ros2_ws/src/hw4_ws/src/vehiclemodel', '-DCMAKE_INSTALL_PREFIX=/home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel'], 'cwd': '/home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('SSH_AGENT_PID', '1209'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '918'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arya'), ('JOURNAL_STREAM', '8:38990'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/arya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arya-NUC11TNHi7:@/tmp/.ICE-unix/1247,unix/arya-NUC11TNHi7:/tmp/.ICE-unix/1247'), ('INVOCATION_ID', '4d45d16d50114309804dbf29e77aeacc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e91fd8e0_2dc2_4960_925e_af3ea795306c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg:/opt/ros/foxy')]), 'shell': False}
+[2.866928] (vehiclemodel) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.899404] (vehiclemodel) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.901996] (vehiclemodel) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.904403] (-) TimerEvent: {}
+[2.948073] (vehiclemodel) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.948615] (vehiclemodel) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.995327] (vehiclemodel) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.003153] (vehiclemodel) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.003372] (vehiclemodel) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.004489] (-) TimerEvent: {}
+[3.004669] (vehiclemodel) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.066868] (vehiclemodel) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.067612] (vehiclemodel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.104620] (-) TimerEvent: {}
+[3.115442] (vehiclemodel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.122207] (vehiclemodel) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.122452] (vehiclemodel) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.123808] (vehiclemodel) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.142941] (vehiclemodel) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.143101] (vehiclemodel) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.204791] (-) TimerEvent: {}
+[3.265157] (vehiclemodel) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[3.282678] (vehiclemodel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.286828] (vehiclemodel) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.305109] (-) TimerEvent: {}
+[3.331837] (vehiclemodel) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.350506] (vehiclemodel) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.396674] (vehiclemodel) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.405192] (-) TimerEvent: {}
+[3.424170] (vehiclemodel) StdoutLine: {'line': b'-- Found rclpy: 1.0.12 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[3.424813] (vehiclemodel) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.451528] (vehiclemodel) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.452317] (vehiclemodel) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.452837] (vehiclemodel) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.505306] (-) TimerEvent: {}
+[3.506590] (vehiclemodel) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.506819] (vehiclemodel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.563284] (vehiclemodel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.563506] (vehiclemodel) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.605430] (-) TimerEvent: {}
+[3.620367] (vehiclemodel) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.620641] (vehiclemodel) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.694245] (vehiclemodel) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.695208] (vehiclemodel) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.705506] (-) TimerEvent: {}
+[3.785954] (vehiclemodel) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[3.805650] (-) TimerEvent: {}
+[3.814700] (vehiclemodel) StdoutLine: {'line': b'-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)\n'}
+[3.815718] (vehiclemodel) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[3.822614] (vehiclemodel) StdoutLine: {'line': b'-- Found vehicle_msg: 0.0.0 (/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/share/vehicle_msg/cmake)\n'}
+[3.844436] (vehiclemodel) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.890604] (vehiclemodel) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.891389] (vehiclemodel) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.891465] (vehiclemodel) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/arya/ros2_ws/src/hw4_ws/src/vehiclemodel/include>\n'}
+[3.891510] (vehiclemodel) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.892048] (vehiclemodel) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.892124] (vehiclemodel) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.892190] (vehiclemodel) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.892604] (vehiclemodel) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.892849] (vehiclemodel) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[3.893548] (vehiclemodel) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.893625] (vehiclemodel) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.893766] (vehiclemodel) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.895385] (vehiclemodel) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.899758] (vehiclemodel) StdoutLine: {'line': b'-- Generating done\n'}
+[3.900639] (vehiclemodel) StdoutLine: {'line': b'-- Build files have been written to: /home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel\n'}
+[3.905754] (-) TimerEvent: {}
+[3.906552] (vehiclemodel) CommandEnded: {'returncode': 0}
+[3.906996] (vehiclemodel) JobProgress: {'identifier': 'vehiclemodel', 'progress': 'build'}
+[3.907311] (vehiclemodel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel', '--', '-j8', '-l8'], 'cwd': '/home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('SSH_AGENT_PID', '1209'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '918'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arya'), ('JOURNAL_STREAM', '8:38990'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/arya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arya-NUC11TNHi7:@/tmp/.ICE-unix/1247,unix/arya-NUC11TNHi7:/tmp/.ICE-unix/1247'), ('INVOCATION_ID', '4d45d16d50114309804dbf29e77aeacc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e91fd8e0_2dc2_4960_925e_af3ea795306c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg:/opt/ros/foxy')]), 'shell': False}
+[3.934733] (vehiclemodel) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vehicleModel\x1b[0m\n'}
+[3.943717] (vehiclemodel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vehicleModel.dir/src/vehicleModel.cpp.o\x1b[0m\n'}
+[3.964014] (vehiclemodel) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vehicleModel\x1b[0m\n'}
+[4.002384] (vehiclemodel) StdoutLine: {'line': b'[100%] Built target vehicleModel\n'}
+[4.005830] (-) TimerEvent: {}
+[4.010691] (vehiclemodel) CommandEnded: {'returncode': 0}
+[4.032148] (vehiclemodel) JobProgress: {'identifier': 'vehiclemodel', 'progress': 'install'}
+[4.034589] (vehiclemodel) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel'], 'cwd': '/home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arya'), ('SSH_AGENT_PID', '1209'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/arya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '918'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'arya'), ('JOURNAL_STREAM', '8:38990'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/arya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/arya-NUC11TNHi7:@/tmp/.ICE-unix/1247,unix/arya-NUC11TNHi7:/tmp/.ICE-unix/1247'), ('INVOCATION_ID', '4d45d16d50114309804dbf29e77aeacc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e91fd8e0_2dc2_4960_925e_af3ea795306c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arya/ros2_ws/src/hw4_ws/build/vehiclemodel'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e13bf04c32bb84714d56167b644d8b01'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg:/opt/ros/foxy')]), 'shell': False}
+[4.044657] (vehiclemodel) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.044803] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/vehiclemodel/vehicleModel\n'}
+[4.044957] (vehiclemodel) StdoutLine: {'line': b'-- Set runtime path of "/home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/vehiclemodel/vehicleModel" to ""\n'}
+[4.045066] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/launch\n'}
+[4.045122] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/launch/display.launch.py\n'}
+[4.045205] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/rviz2\n'}
+[4.045260] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/rviz2/ros2.rviz\n'}
+[4.045327] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/rviz2/ros1.rviz\n'}
+[4.045370] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/src\n'}
+[4.045411] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/src/vehicleModel.cpp\n'}
+[4.045453] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/scripts\n'}
+[4.045496] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/scripts/utils.py\n'}
+[4.045536] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/urdf\n'}
+[4.045595] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/urdf/racecar.urdf.xacro\n'}
+[4.045663] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/environment/pythonpath.sh\n'}
+[4.045706] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/environment/pythonpath.dsv\n'}
+[4.045746] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/python3.8/site-packages/vehiclemodel\n'}
+[4.045787] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/python3.8/site-packages/vehiclemodel/__init__.py\n'}
+[4.045845] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/python3.8/site-packages/vehiclemodel/module_to_import.py\n'}
+[4.066199] (vehiclemodel) StdoutLine: {'line': b"Listing '/home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/python3.8/site-packages/vehiclemodel'...\n"}
+[4.066298] (vehiclemodel) StdoutLine: {'line': b"Compiling '/home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/python3.8/site-packages/vehiclemodel/__init__.py'...\n"}
+[4.066342] (vehiclemodel) StdoutLine: {'line': b"Compiling '/home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/python3.8/site-packages/vehiclemodel/module_to_import.py'...\n"}
+[4.068376] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/vehiclemodel/utils.py\n'}
+[4.068463] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/ament_index/resource_index/package_run_dependencies/vehiclemodel\n'}
+[4.068528] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/ament_index/resource_index/parent_prefix_path/vehiclemodel\n'}
+[4.068587] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/environment/ament_prefix_path.sh\n'}
+[4.068655] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/environment/ament_prefix_path.dsv\n'}
+[4.068753] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/environment/path.sh\n'}
+[4.068807] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/environment/path.dsv\n'}
+[4.068891] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/local_setup.bash\n'}
+[4.068967] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/local_setup.sh\n'}
+[4.069031] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/local_setup.zsh\n'}
+[4.069093] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/local_setup.dsv\n'}
+[4.069150] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/package.dsv\n'}
+[4.069231] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/ament_index/resource_index/packages/vehiclemodel\n'}
+[4.069309] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/cmake/vehiclemodelConfig.cmake\n'}
+[4.069360] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/cmake/vehiclemodelConfig-version.cmake\n'}
+[4.069411] (vehiclemodel) StdoutLine: {'line': b'-- Installing: /home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/share/vehiclemodel/package.xml\n'}
+[4.070948] (vehiclemodel) CommandEnded: {'returncode': 0}
+[4.101218] (vehiclemodel) JobEnded: {'identifier': 'vehiclemodel', 'rc': 0}
+[4.101859] (-) EventReactorShutdown: {}
