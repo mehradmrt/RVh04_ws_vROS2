@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/python3.8/site-packages",
+        "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/arya/ros2_ws/src/hw4_ws/install/vehiclemodel/lib/python3.8/site-packages",
+        "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

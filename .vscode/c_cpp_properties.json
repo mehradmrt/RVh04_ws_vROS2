@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/arya/ros2_ws/src/hw4_ws/src/vehicle_msg/include/**",
+        "/home/arya/ros2_ws/src/hw4_ws/src/vehiclemodel/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
