@@ -55,9 +55,8 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-
 # rosidl_generate_interfaces(${PROJECT_NAME}
-#   "msg/vehicle2Dpose.msg"
+#   "msg/vehiclepose.msg"
 # )
 
 

@@ -1,6 +1,0 @@
-Invoking command in '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/arya/ros2_ws/src/hw4_ws/src/vehicle_msg -DCMAKE_INSTALL_PREFIX=/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg
-Invoked command in '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/arya/ros2_ws/src/hw4_ws/src/vehicle_msg -DCMAKE_INSTALL_PREFIX=/home/arya/ros2_ws/src/hw4_ws/install/vehicle_msg
-Invoking command in '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg -- -j8 -l8
-Invoked command in '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg -- -j8 -l8
-Invoking command in '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg
-Invoked command in '/home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/arya/ros2_ws/src/hw4_ws/build/vehicle_msg

@@ -4,7 +4,7 @@
   <name>vehiclemodel</name>
   <version>2.0.0</version>
   <description>This package is an upgrade to ROS1 version provided 
-  by Dr. De Castro: https://github.com/rpintodecastro/RoboticVehicles2023 
+  by Dr. de Castro: https://github.com/rpintodecastro/RoboticVehicles2023 
   </description>
   <maintainer email="mehradmortazavi@gmail.com">mehradmrt</maintainer>
   <license> N/A </license>

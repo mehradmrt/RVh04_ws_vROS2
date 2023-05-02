@@ -9,7 +9,7 @@ from scipy.spatial.transform import Rotation as R
 # import sys
 # sys.path.insert(0, '..')
 
-from vehicle_msg.msg import vehiclepose # the name is changed to follow the proper .msg formating
+from vehicle_msg.msg import Vehiclepose # the name is changed to follow the proper .msg formating
 
 class Utils(Node):
     def __init__(self):
@@ -22,14 +22,14 @@ class Utils(Node):
         t.header.frame_id = "world"
         t.child_frame_id = "base_link"
         t.transform.translation.x = 0.0
-        t.transform.translation.y = 0.0
+        t.transform.translation.y = 1.0
         t.transform.translation.z = 0.0
         # q = tf2_ros.transformations.quaternion_from_euler(0.0, 0.0, 0.0)
         # t.transform.rotation.x = q[0]
         # t.transform.rotation.y = q[1]
         # t.transform.rotation.z = q[2]
         # t.transform.rotation.w = q[3]
-        q = R.from_euler('xyz',[0.0, 0.0, 0.0])
+        q = R.from_euler('xyz',[0.0, 0.0, 1.0])
         t.transform.rotation.x = q.as_quat()[0]
         t.transform.rotation.y = q.as_quat()[1]
         t.transform.rotation.z = q.as_quat()[2]
@@ -37,7 +37,7 @@ class Utils(Node):
         self.br.sendTransform(t)
 
         # Subscribes to vehicle position and orientation message
-        self.sub = self.create_subscription(vehiclepose, 'vehiclepose', self.callback_vehicle2Dpose, 10)
+        self.sub = self.create_subscription(Vehiclepose, 'Vehiclepose', self.callback_vehicle2Dpose, 10)
 
     # Republishes vehicle position and orientation message using tf
     def callback_vehicle2Dpose(self, msg):
