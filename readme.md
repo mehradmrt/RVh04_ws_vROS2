@@ -1,5 +1,5 @@
 
-1: The workstation " h04_ws_vROS2" is created including the packages "roboticvehicles_ros1", "roboticvehicles_ros2" and "vehicle_msgs". A package in ros2 can be created using the following example:
+P1: The workstation " h04_ws_vROS2" is created including the packages "roboticvehicles_ros1", "roboticvehicles_ros2" and "vehicle_msgs". A package in ros2 can be created using the following example:
 
     "ros2 pkg create vehiclemodel"
 
