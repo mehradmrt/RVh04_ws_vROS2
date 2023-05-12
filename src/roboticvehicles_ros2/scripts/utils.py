@@ -18,7 +18,7 @@ class Utils(Node):
         t.header.stamp = self.get_clock().now().to_msg()
         t.header.frame_id = "world"
         t.child_frame_id = "base_link"
-        t.transform.translation.x = 0.0
+        t.transform.translation.x = 1.0
         t.transform.translation.y = 0.0
         t.transform.translation.z = 0.0
         # q = tf2_ros.transformations.quaternion_from_euler(0.0, 0.0, 0.0)
@@ -26,7 +26,7 @@ class Utils(Node):
         # t.transform.rotation.y = q[1]
         # t.transform.rotation.z = q[2]
         # t.transform.rotation.w = q[3]
-        q = R.from_euler('xyz',[0.0, 0.0, 0.0])
+        q = R.from_euler('xyz',[0.0, 0.0, 1.57075])
         t.transform.rotation.x = q.as_quat()[0]
         t.transform.rotation.y = q.as_quat()[1]
         t.transform.rotation.z = q.as_quat()[2]

@@ -50,12 +50,28 @@ def generate_launch_description():
         arguments=['-d', LaunchConfiguration('rvizconfig')],
     )
 
+    utils = Node(
+        package='roboticvehicles_ros2',
+        executable='utils.py',
+        name='utils',
+        output='screen'
+    ) 
+
+    ktsm = Node(
+        package='vehiclemodel',
+        executable='ktsm.py',
+        name='posepub',
+        output='screen'
+    )
+
     return LaunchDescription([
+        utils,
+        ktsm,
         gui_arg,
         model_arg,
         rviz_arg,
         joint_state_publisher_node,
         joint_state_publisher_gui_node,
         robot_state_publisher_node,
-        rviz_node
+        rviz_node,
     ])

@@ -23,7 +23,7 @@ find_package(rclpy REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(xacro REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
+# find_package(rosidl_default_generators REQUIRED)
 
 find_package(vehicle_msg REQUIRED)
 find_package(roboticvehicles_ros2 REQUIRED)

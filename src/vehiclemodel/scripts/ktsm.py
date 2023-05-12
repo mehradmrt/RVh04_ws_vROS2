@@ -54,7 +54,7 @@ class posepub(Node):
         msg.y = self.dt*self.y_dot + self.y_old
         msg.theta = self.dt*self.theta_dot + self.theta_old
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "X: %s Y: %s theta: %s"' % (msg.x , msg.y, msg.theta))
+        # self.get_logger().info('Publishing: "X: %s Y: %s theta: %s"' % (msg.x , msg.y, msg.theta))
         
 
 
