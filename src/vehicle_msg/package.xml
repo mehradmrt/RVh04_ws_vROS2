@@ -4,7 +4,7 @@
   <name>vehicle_msg</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="mehradmortazavi@gmail.com">arya</maintainer>
+  <maintainer email="smortazavi3@ucmerced.edu">mehradmrt</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

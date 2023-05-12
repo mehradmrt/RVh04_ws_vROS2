@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "vehicle_msg")
 set(vehicle_msg_VERSION "0.0.0")
-set(vehicle_msg_MAINTAINER "arya <mehradmortazavi@gmail.com>")
+set(vehicle_msg_MAINTAINER "mehradmrt <smortazavi3@ucmerced.edu>")
 set(vehicle_msg_BUILD_DEPENDS )
 set(vehicle_msg_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(vehicle_msg_BUILD_EXPORT_DEPENDS )
