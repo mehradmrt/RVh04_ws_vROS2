@@ -30,6 +30,7 @@ To use the rtq:
 
 P3:
 ros2 launch vehiclemodel all.launch.py
+
 ros2 topic pub /VehicleInput vehicle_msg/msg/VehicleInput "{vref: 0.1, steerangle: 0.5}" -r 5
 
 
