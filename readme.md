@@ -1,9 +1,9 @@
 
-P1: The workstation " h04_ws_vROS2" is created including the packages "roboticvehicles_ros1", "roboticvehicles_ros2" and "vehicle_msgs". A package in ros2 can be created using the following example:
+P1: The workstation " h04_ws_vROS2" is created including the packages "roboticvehicles_ros2" and "vehicle_msgs". A package in ros2 can be created using the following example:
 
     "ros2 pkg create vehiclemodel"
 
-Please note that the structure of the ROS2 packages are different which required some effort to prepare the ROS2/foxy version.
+Please note that the structure of the ROS2 packages are different from ROS1 packages which required some time transforming the packages into ROS2/foxy version.
 
 Please use source workspce at all times using: source /opt/ros/foxy/setup.bash
 
